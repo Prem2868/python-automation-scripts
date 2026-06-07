@@ -3,3 +3,4 @@ selenium
 requests
 python-dotenv
 psutil
+psutil

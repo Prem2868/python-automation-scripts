@@ -17,7 +17,7 @@ A curated collection of Python automation scripts for productivity and system ta
 ```bash
 git clone https://github.com/Prem2868/python-automation-scripts.git
 cd python-automation-scripts
-pip install -r requirements.txt
+pip install psutil
 ```
 
 ## Usage
