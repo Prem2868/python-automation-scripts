@@ -17,19 +17,22 @@ A curated collection of Python automation scripts for productivity and system ta
 ```bash
 git clone https://github.com/Prem2868/python-automation-scripts.git
 cd python-automation-scripts
-pip install psutil
+python -m pip install -r requirements.txt
 ```
 
 ## Usage
-Browse the `src/` directory for specific automation scripts. Each script contains its own usage instructions in the header.
+Browse the repository root for the available automation scripts. Each script contains its own usage instructions in the header. Run scripts in a test environment first, especially those that modify files, processes, or system configuration.
 
 ## Tech Stack
 - **Language:** Python
 - **Libraries:** OS, Shutil, Pandas, Selenium
 - **Platform:** Cross-platform
 
+## Safety
+Review each script before execution. Scripts that interact with the operating system may modify files or processes; run them only on systems you own or are authorized to administer.
+
 ## Contributing
-Contributions are welcome! If you have a useful automation script, feel free to submit a Pull Request.
+Contributions are welcome! If you have a useful automation script, feel free to submit a Pull Request with a description, usage example, and test evidence.
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
